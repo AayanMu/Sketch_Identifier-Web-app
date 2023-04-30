@@ -1,0 +1,32 @@
+h1{
+    background-color: rgb(144, 144, 144);
+    padding: 10px;
+    color: white;
+    margin: 0px;
+}
+
+h1  button{
+    float:right;
+}
+
+body{
+    background-color: rgb(180, 255, 255);
+}
+
+.modal-dialog{
+    width:100%;
+}
+
+canvas{
+    border: 3px white solid;
+    border-radius: 10px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+ from{box-shadow:2px 1px 50px rgb(214, 214, 214);}
+ to{box-shadow: 2px 1px 50px black;}
+}
